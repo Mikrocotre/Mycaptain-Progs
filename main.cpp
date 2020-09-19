@@ -4,11 +4,10 @@ using namespace std;
 
 int main()
 {
-    float a,b,c;
-    cout<<"Enter two numbers:\n"<<endl;
-    cin>>a;
-    cin>>b;
-    c=a*b;
-    cout<<"a x b="<<c<<endl;
+    cout<<"Size of int:\t"<<sizeof(int)<<"byte"<<endl;
+    cout<<"Size of float:\t"<<sizeof(float)<<"byte"<<endl;
+    cout<<"Size of double:\t"<<sizeof(double)<<"byte"<<endl;
+    cout<<"Size of char:\t"<< sizeof(char)<<"byte"<<endl;
+
     return 0;
 }
